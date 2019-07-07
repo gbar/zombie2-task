@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  zombie2-db:
+    image: postgres:10-alpine
+    container_name: zombie2-db
+    environment:
+      POSTGRES_DB: zombie2
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - 5432:5432
