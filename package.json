@@ -49,7 +49,7 @@
     "rimraf": "2.6.3",
     "rxjs": "6.5.2",
     "swagger-ui-express": "4.0.6",
-    "typeorm": "0.2.18",
+    "typeorm": "0.2.25",
     "cron": "1.7.1"
   },
   "devDependencies": {
